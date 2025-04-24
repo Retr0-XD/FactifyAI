@@ -10,6 +10,10 @@ const baseConfig = {
       '@': resolve(__dirname, 'src'),
     },
   },
+  define: {
+    // Fix for "process is not defined" error
+    'process.env.NODE_ENV': JSON.stringify('production')
+  }
 };
 
 // https://vitejs.dev/config/
