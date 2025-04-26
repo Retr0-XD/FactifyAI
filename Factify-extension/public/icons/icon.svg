@@ -1,0 +1,14 @@
+<!-- Simple SVG icon for FactifyAI with 128x128 dimensions -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#gradient)" />
+  <circle cx="64" cy="64" r="40" fill="white" fill-opacity="0.15" />
+  <path d="M64 40C50.745 40 40 50.745 40 64C40 77.255 50.745 88 64 88C77.255 88 88 77.255 88 64C88 50.745 77.255 40 64 40ZM64 44C75.046 44 84 52.954 84 64C84 75.046 75.046 84 64 84C52.954 84 44 75.046 44 64C44 52.954 52.954 44 64 44Z" fill="white" />
+  <path d="M64 52V68" stroke="white" stroke-width="6" stroke-linecap="round" />
+  <circle cx="64" cy="76" r="3" fill="white" />
+</svg>
