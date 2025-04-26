@@ -1,6 +1,6 @@
 # Build stage
 FROM maven:3-openjdk-17 AS build
-WORKDIR /app
+WORKDIR /FactifyBackend
 COPY . .
 RUN mvn clean package -DskipTests
 
