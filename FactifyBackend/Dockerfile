@@ -1,6 +1,6 @@
 # Build stage
 FROM maven:3-openjdk-17 AS build
-WORKDIR ./FactifyBackend
+WORKDIR ./FactifyAI/FactifyBackend
 RUN pwd
 COPY . .
 RUN ls -la
