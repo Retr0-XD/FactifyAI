@@ -29,6 +29,10 @@ This project consists of two main components:
 
 ![Analysis Features]({8EEDCFB1-CCD9-4122-9AEB-8071DAF8C3A8}.png)
 
+
+![{Example}](https://github.com/user-attachments/assets/57f99774-b0fc-45fd-aa9e-566def6ec596)
+
+
 ## Chrome Extension (Factify-extension)
 
 The Chrome extension provides a user-friendly interface for selecting and analyzing content directly on webpages.
