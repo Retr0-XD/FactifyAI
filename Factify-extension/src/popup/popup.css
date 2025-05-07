@@ -1,0 +1,212 @@
+/* Popup styles for FactifyAI Chrome extension */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.popup-container {
+  width: 350px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.popup-header {
+  text-align: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.popup-header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #4285f4;
+}
+
+.subtitle {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+.online {
+  background-color: #34a853;
+}
+
+.offline {
+  background-color: #ea4335;
+}
+
+.checking {
+  background-color: #fbbc05;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+.refresh-button {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #4285f4;
+}
+
+.refresh-button:hover {
+  color: #2b6cb0;
+}
+
+.refresh-button:disabled {
+  color: #999;
+  cursor: not-allowed;
+}
+
+.settings-section {
+  margin-bottom: 15px;
+}
+
+.settings-section h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-group input,
+.input-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-group button {
+  align-self: flex-end;
+  padding: 5px 12px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.input-group button:hover {
+  background-color: #2b6cb0;
+}
+
+.api-key-warning {
+  color: #ea4335;
+  font-size: 13px;
+  margin-top: -8px;
+  margin-bottom: 12px;
+  padding: 4px 8px;
+  background-color: rgba(234, 67, 53, 0.1);
+  border-radius: 4px;
+}
+
+.options-group {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.options-group h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.checkbox-group {
+  margin-bottom: 8px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkbox-group input {
+  margin-right: 8px;
+}
+
+.save-options-button {
+  padding: 6px 12px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.save-options-button:hover {
+  background-color: #2b6cb0;
+}
+
+.status-message {
+  background-color: #e8f0fe;
+  border-left: 4px solid #4285f4;
+  padding: 8px 12px;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.popup-footer {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+.version {
+  margin-top: 5px;
+  font-size: 11px;
+  color: #999;
+}

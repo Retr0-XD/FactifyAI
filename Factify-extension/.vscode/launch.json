@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Chrome Extension",
+      "type": "chrome",
+      "request": "launch",
+      "url": "chrome://extensions/",
+      "webRoot": "${workspaceFolder}/dist",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack:///src/*": "${webRoot}/*"
+      },
+      "runtimeArgs": [
+        "--load-extension=${workspaceFolder}/dist",
+        "--disable-extensions-except=${workspaceFolder}/dist",
+        "--no-first-run",
+        "--no-default-browser-check"
+      ],
+      "preLaunchTask": "npm: build"
+    }
+  ]
+}
